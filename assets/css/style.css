@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+body {
+  position: relative;
+  background: #323131;
+  font-family: "Nunito", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+section {
+  margin-top: 200px;
+}
+.container {
+  max-width: 1500px;
+}
+.navbar {
+  background: #1f1f1f;
+  height: 80px;
+}
+.text-color {
+  color: #ffff;
+}
+.navbar-brand {
+  margin-left: 65px;
+}
+.collapse {
+  margin-right: 20px;
+}
+.nav-item {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 10px;
+}
+a:hover {
+  color: #445a5a;
+}
+.nav-link:hover {
+  color: #445a5a;
+}
+.figure-card {
+  width: 220px;
+  height: 240px;
+  left: 515px;
+  background: #1f1f1f;
+  border-radius: 49%;
+}
+.hero1 {
+  width: 180px;
+  height: 210px;
+  margin-left: 4px;
+  border-radius: 66px;
+}
+.circle-item {
+  border-radius: 50%;
+  width: 75px;
+  height: 70px;
+  top: 255px;
+  left: 510px;
+  background: #445a5a;
+}
+.circle-item-stroke {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  top: 158px;
+  left: 700px;
+  background: #323131;
+  border: 1px solid #445a5a;
+  box-sizing: border-box;
+}
+.circle-item-stroke2 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  top: 170px;
+  left: 700px;
+  background: #323131;
+  border: 1px solid #445a5a;
+  box-sizing: border-box;
+}
+.tag-name {
+  font-family: "Roboto";
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: unset;
+}
+.tag-hobby {
+  font-family: "Rubik";
+  text-align: center;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #ffffff;
+  margin: 0;
+  line-break: 0;
+}
+.title {
+  color: #ffff;
+  font-family: "Kanit";
+  font-style: normal;
+  margin-left: 65px;
+  margin-top: 110px;
+}
+.description {
+  margin-top: 40px;
+  width: 1128px;
+  left: 65px;
+  border-radius: 15px;
+  background: #1f1f1f;
+}
+.name-desc {
+  font-family: "Kanit";
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+  color: #445a5a;
+}
+.job-desc {
+  font-family: "Kanit";
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 115.5%;
+  color: #ffffff;
+}
+.text-desc {
+  color: #8e8e8e;
+  text-align: justify;
+}
+.btn-email {
+  background: #445a5a;
+  color: #ffff;
+}
+.separator {
+  margin-top: 5px;
+}
+.btn-download {
+  text-decoration: none;
+  color: #8e8e8e;
+}
+.item-skills {
+  margin-top: 20px;
+  margin-left: 65px;
+}
+.skill {
+  margin-right: 80px;
+}
+.portofolio {
+  margin-top: 40px;
+  width: 1128px;
+  left: 65px;
+  border-radius: 15px;
+  background: #1f1f1f;
+}
+.end-margin {
+  margin-bottom: 100px;
+}
+.folio {
+  margin: 15px;
+}
+.link-folio {
+  text-decoration: none;
+  color: #ffff;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  margin-top: 50px;
+}
+.space {
+  margin-top: 65px;
+  margin-left: 55px;
+}
+.footer-content {
+  background: #1f1f1f;
+  width: 1262px;
+  height: 152px;
+}
+.card-footer {
+  background: #1f1f1f;
+  width: 1262px;
+  height: 199px;
+}
+.spacing-footer {
+  margin-left: 50px;
+}
+.head-footer {
+  font-family: "Kanit";
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  color: #ffff;
+}
+.text-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #c4c4c4;
+}
+.social-footer {
+  color: #1f1f1f;
+  text-decoration: none;
+  background: #ffff;
+  border-radius: 48%;
+}
+.icon-space {
+  margin-left: 20px;
+}
+.flow-up {
+  color: #ffff;
+  text-decoration: none;
+  background: #445a5a;
+  float: right;
+  width: 75px;
+  height: 45px;
+}
+.up {
+  width: 300px;
+}
+.head-folio {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 112px;
+}
+.title-folio {
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+}
+hr {
+  width: 30%;
+  height: 10px;
+  align-items: center;
+  color: #ffff;
+  border: 1px;
+  margin-left: 35%;
+}
+.card-folio {
+  width: 48%;
+  height: 250px;
+}
+
+.container2 {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.container2 .card2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.container2 .card2 .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container2 .card2 .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container2 .card2:hover .face.face1 {
+  background: #445a5a;
+  transform: translateY(0);
+}
+
+.container2 .card2 .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.container2 .card2:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container2 .card2 .face.face1 .content img {
+  max-width: 285px;
+}
+
+.container2 .card2 .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container2 .card2 .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container2 .card2:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container2 .card2 .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container2 .card2 .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container2 .card2 .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.message-content {
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.input-message {
+  background-color: #1f1f1f;
+  border: 1px solid #445a5a;
+  color: #ffff;
+}
+
+.input-message:focus {
+  background: #1f1f1f;
+  color: #ffff;
+}
+
+.btn-action {
+  float: right;
+}
+
+.text-color-center {
+  color: #ffff;
+  text-align: center;
+}
+
+.table-striped {
+  color: #ffff;
+}
+
+.btn-option {
+  border-radius: 47%;
+}
+
+.width-row {
+  width: 150px;
+}
+
+.color-icon {
+  color: #ffff;
+}
+
+.table-responsive {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.btn-login {
+  margin-top: 7px;
+  border-radius: 20px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-size: 20px;
+}
+
+.text-logout {
+  font-family: "Kanit";
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 18px;
+}
+
+.text-message {
+  color: #ffff;
+}
+
+.text-margin {
+  margin-left: 10px;
+}
